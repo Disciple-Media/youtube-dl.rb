@@ -11,10 +11,10 @@ before_install:
 bundler_args: --without extras
 
 rvm:
-- 2.0.0 # Too old stable
-- 2.1.9 # Old stable
-- 2.2.5 # Previous Stable
-- 2.3.1 # Current stable
+- 2.3.8
+- 2.4.5
+- 2.5.5
+- 2.6.2
 - ruby-head # MRI head
 - jruby # JRuby RVM default
 - jruby-9.1.2.0 # JRuby 9k series
